@@ -1,5 +1,7 @@
 import React from 'react';
 import Select from 'react-select';
+import Nordstrom from '../components/experience/Nordstrom';
+import SMU from '../components/education/SMU'
 
 const experienceOptions = [
     { value: 'nordstrom', label: 'Nordstrom' },
@@ -51,6 +53,8 @@ class Experience extends React.Component {
     state = {
         experienceOption: null,
         educationOption: null,
+        experienceComponent: null,
+        educationComponent: null,
     };
 
     experienceChange = experienceOption => {
@@ -64,10 +68,22 @@ class Experience extends React.Component {
     };
 
     displayExperience = (experienceOption) => {
+        switch (experienceOption.value) {
+            case 'nordstrom':
+                this.setState({experienceComponent: <Nordstrom/>});
+            default:
+                console.log('default switch statement.');
+        }
       console.log(experienceOption.value);
     };
 
     displayEducation = (educationOption) => {
+        switch (educationOption.value) {
+            case 'smu':
+                this.setState({educationComponent: <SMU/>});
+            default:
+                console.log('default switch statement.');
+        }
         console.log(educationOption.value);
     };
 
@@ -84,6 +100,7 @@ class Experience extends React.Component {
                     options={experienceOptions}
                 />
                 <br/>
+                {this.state.experienceComponent}
                 <Select
                     placeholder={'Institution'}
                     styles={customStyles}
@@ -91,6 +108,8 @@ class Experience extends React.Component {
                     onChange={this.educationChange}
                     options={educationOptions}
                 />
+                <br/>
+                {this.state.educationComponent}
             </div>
         );
     }

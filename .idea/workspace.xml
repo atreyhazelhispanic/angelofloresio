@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ed08fae-9100-4631-b7f1-f04851f614b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/education/GRCC.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/education/OC.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/education/SMU.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/education/UW.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/experience/ACE.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/experience/BestBuy.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/experience/ChinaHarbor.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/experience/EQC.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/experience/FredMeyer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/experience/IntegrityLabs.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/experience/Nordstrom.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/experience/PAX.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/experience/RobisonRemodeling.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/experience/Safeway.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/experience/Simpson.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/education/SMU.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/education/SMU.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/experience/Nordstrom.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/Nordstrom.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Experience.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Experience.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
