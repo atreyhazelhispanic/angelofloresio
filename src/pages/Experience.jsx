@@ -1,7 +1,20 @@
 import React from 'react';
 import Select from 'react-select';
 import Nordstrom from '../components/experience/Nordstrom';
-import SMU from '../components/education/SMU'
+import BestBuy from '../components/experience/BestBuy';
+import ACE from '../components/experience/ACE';
+import ChinaHarbor from '../components/experience/ChinaHarbor';
+import EQC from '../components/experience/EQC'
+import FredMeyer from '../components/experience/FredMeyer';
+import IntegrityLabs from '../components/experience/IntegrityLabs';
+import PAX from '../components/experience/PAX';
+import RobisonRemodeling from '../components/experience/RobisonRemodeling';
+import Safeway from '../components/experience/Safeway';
+import Simpson from '../components/experience/Simpson';
+import SMU from '../components/education/SMU';
+import UW from '../components/education/UW';
+import OC from '../components/education/OC';
+import GRCC from '../components/education/GRCC';
 
 const experienceOptions = [
     { value: 'nordstrom', label: 'Nordstrom' },
@@ -71,6 +84,37 @@ class Experience extends React.Component {
         switch (experienceOption.value) {
             case 'nordstrom':
                 this.setState({experienceComponent: <Nordstrom/>});
+                break;
+            case 'bestbuy':
+                this.setState({experienceComponent: <BestBuy/>});
+                break;
+            case 'robisonremodeling':
+                this.setState({experienceComponent: <RobisonRemodeling/>});
+                break;
+            case 'pax':
+                this.setState({experienceComponent: <PAX/>});
+                break;
+            case 'integritylabs':
+                this.setState({experienceComponent: <IntegrityLabs/>});
+                break;
+            case 'safeway':
+                this.setState({experienceComponent: <Safeway/>});
+                break;
+            case 'simpson':
+                this.setState({experienceComponent: <Simpson/>});
+                break;
+            case 'chinaharbor':
+                this.setState({experienceComponent: <ChinaHarbor/>});
+                break;
+            case 'emeraldqueen':
+                this.setState({experienceComponent: <EQC/>});
+                break;
+            case 'fredmeyer':
+                this.setState({experienceComponent: <FredMeyer/>});
+                break;
+            case 'ace':
+                this.setState({experienceComponent: <ACE/>});
+                break;
             default:
                 console.log('default switch statement.');
         }
@@ -81,6 +125,16 @@ class Experience extends React.Component {
         switch (educationOption.value) {
             case 'smu':
                 this.setState({educationComponent: <SMU/>});
+                break;
+            case 'uw':
+                this.setState({educationComponent: <UW/>});
+                break;
+            case 'oc':
+                this.setState({educationComponent: <OC/>});
+                break;
+            case 'grcc':
+                this.setState({educationComponent: <GRCC/>});
+                break;
             default:
                 console.log('default switch statement.');
         }
