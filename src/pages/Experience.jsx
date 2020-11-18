@@ -55,12 +55,20 @@ class Experience extends React.Component {
 
     experienceChange = experienceOption => {
         this.setState({ experienceOption });
-        console.log(`Option selected:`, experienceOption);
+        this.displayExperience(experienceOption);
     };
 
     educationChange = educationOption => {
         this.setState({ educationOption });
-        console.log(`Option selected:`, educationOption);
+        this.displayEducation(educationOption);
+    };
+
+    displayExperience = (experienceOption) => {
+      console.log(experienceOption.value);
+    };
+
+    displayEducation = (educationOption) => {
+        console.log(educationOption.value);
     };
 
     render() {
