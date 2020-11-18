@@ -2,9 +2,9 @@ import React from 'react';
 
 class Experience extends React.Component {
     render() {
-        return <div>
-                Testing
-            </div>
+        return (
+          <div>testing</div>
+        );
     }
 }
 
