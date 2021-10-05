@@ -6,7 +6,7 @@ class FredMeyer extends React.Component {
         return (
             <div>
                 <img src={Logo} height={'120px'} width={'270px'}/>
-                <ul style={{color: '#03a9f4', textShadow: '1px 1px #FFFFFF', width: '50%', backgroundColor: 'white', opacity: '0.7'}}>
+                <ul style={{color: 'black', width: '50%', backgroundColor: 'white'}}>
                     <li>Relief Assistant Food Manager - 2/09-2/11</li>
                     <li>Fourth Food Manager - 10/07-2/09</li>
                     <li>Operations Supervisor - 4/07-10/07</li>

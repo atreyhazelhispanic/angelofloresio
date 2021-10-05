@@ -6,7 +6,7 @@ class IntegrityLabs extends React.Component {
         return (
             <div>
                 <img src={Logo} height={'120px'} width={'280px'}/>
-                <ul style={{color: '#03a9f4', textShadow: '1px 1px #FFFFFF', width: '50%', backgroundColor: 'white', opacity: '0.7'}}>
+                <ul style={{color: 'black', width: '50%', backgroundColor: 'white'}}>
                     <li>Software Engineer - Contract 5/18-7/18</li>
                 </ul>
             </div>

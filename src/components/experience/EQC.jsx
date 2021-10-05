@@ -6,7 +6,7 @@ class EQC extends React.Component {
         return (
             <div>
                 <img src={Logo} height={'120px'} width={'200px'}/>
-                <ul style={{color: '#03a9f4', textShadow: '1px 1px #FFFFFF', width: '50%', backgroundColor: 'white', opacity: '0.7'}}>
+                <ul style={{color: 'black', width: '50%', backgroundColor: 'white'}}>
                     <li>Bartender - 4/11-6/11</li>
                     <li>Bar Back - 3/11-4/11</li>
                 </ul>

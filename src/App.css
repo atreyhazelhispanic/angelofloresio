@@ -6,9 +6,17 @@
 }
 
 .navItems {
-  position: fixed;
-  padding-top: 15px;
+  position: absolute;
+  padding-top: 18px;
   font-size: 25px;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: orangered;
 }
 
 @media (prefers-reduced-motion: no-preference) {

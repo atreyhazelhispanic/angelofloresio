@@ -6,7 +6,7 @@ class PAX extends React.Component {
         return (
             <div>
                 <img src={Logo} height={'110px'} width={'250px'}/>
-                <ul style={{color: '#03a9f4', textShadow: '1px 1px #FFFFFF', width: '50%', backgroundColor: 'white', opacity: '0.7'}}>
+                <ul style={{color: 'black', width: '50%', backgroundColor: 'white'}}>
                     <li>Enforcer - Dev 8/19-9/19</li>
                     <li>VR Enforcer - West 8/19-9/19</li>
                     <li>VR Enforcer - West 8/18-9/18</li>
