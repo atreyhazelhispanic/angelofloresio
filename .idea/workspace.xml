@@ -2,65 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ed08fae-9100-4631-b7f1-f04851f614b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/c#/C#.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/java/CuratedCollections.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/java/Java.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/java/OisIndexer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/python/Python.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/react/react.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/portfolio/Portfolio.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/angelofloresio 2.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/angelofloresio 3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc 2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc 3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules 2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules 3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs 2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs 3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace 2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace 3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/af_logo.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/profile_icon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/education/GRCC.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/education/OC.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/education/SMU.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/education/UW.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experience/ACE.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experience/BestBuy.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experience/ChinaHarbor.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experience/EQC.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experience/FredMeyer.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experience/IntegrityLabs.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experience/Nordstrom.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experience/PAX.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experience/RobisonRemodeling.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experience/Safeway.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experience/Simpson.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/ace_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/af_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/bestbuy_logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/chinaharbor_logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/eqc_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/fredmeyer_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/grcc_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/integrity_logo.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/nordstrom_logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/oc_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/pax_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/rr_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/safeway_logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/se_background.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/simpson_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/smu_logo.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/uw_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Experience.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/java/Java.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/java/Java.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/Curated Collections - Lambda Processor.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/files/OIS-Indexer.pdf" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +76,7 @@
       <workItem from="1605048397023" duration="104000" />
       <workItem from="1606286825682" duration="549000" />
       <workItem from="1632852257243" duration="21768000" />
-      <workItem from="1633307032859" duration="24830000" />
+      <workItem from="1633307032859" duration="25554000" />
     </task>
     <servers />
   </component>
@@ -143,6 +88,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="543" y="325" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1633404024051" />
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1633729410393">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="578" y="279" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1633729410393" />
     <state width="1659" height="261" key="GridCell.Tab.0.bottom" timestamp="1633457078105">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
