@@ -4,6 +4,7 @@ import './App.css';
 import Logo from './images/af_icon.png'
 import Portfolio from './pages/portfolio/Portfolio'
 import Experience from './pages/experience/Experience'
+import Homepage from "./components/Homepage/Homepage";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path={'/experience'} component={Experience}/>
             <Route path={'/portfolio'} component={Portfolio}/>
         </Switch>
+        <Homepage />
     </div>
   );
 }
