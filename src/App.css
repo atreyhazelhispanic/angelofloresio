@@ -32,6 +32,15 @@ a:visited {
   display: inline-block;
 }
 
+.overwatch{
+  background-image: url('images/genji_potg_intro.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

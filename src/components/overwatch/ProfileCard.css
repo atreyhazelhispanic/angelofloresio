@@ -1,0 +1,84 @@
+.card-container {
+    background-color: white;
+    min-width: 200px;
+    max-width: 300px;
+    height: auto;
+    border-radius: 14px;
+    box-shadow: 0px 10px 30px hsl(185, 75%, 35%);
+}
+
+.profile-header {
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.profile-pic {
+    margin: auto;
+    width: 100px;
+    border: solid white 4px;
+    border-radius: 50%;
+    margin-top: 75px;
+}
+
+.bold-text {
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 5px 10px 0px 10px;
+}
+
+.normal-text {
+    font-weight: normal;
+    font-size: 0.95rem;
+    color: hsl(0, 0%, 50%);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.smaller-text {
+    font-weight: normal;
+    font-size: 0.7rem;
+    color: hsl(0, 0%, 50%);
+    text-align: center;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+    line-height: 5px;
+}
+
+.social-container {
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    border-top: solid rgb(206, 206, 206) 1px;
+    text-align: center;
+    justify-content: center;
+}
+
+.mains {
+    -webkit-order:1;
+    -webkit-flex: 0 1 auto;
+}
+
+.peeks {
+    -webkit-order:1;
+    -webkit-flex: 0 1 auto;
+}
+
+.maps {
+    -webkit-order:1;
+    -webkit-flex: 0 1 auto;
+}
+
+.profile-cards {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.card-container {
+    display: inline-block;
+}
