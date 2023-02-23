@@ -1,6 +1,6 @@
 .card-container {
     background-color: white;
-    min-width: 200px;
+    min-width: 300px;
     max-width: 300px;
     height: auto;
     border-radius: 14px;
@@ -19,6 +19,7 @@
 .profile-pic {
     margin: auto;
     width: 100px;
+    height: 100px;
     border: solid white 4px;
     border-radius: 50%;
     margin-top: 75px;
@@ -74,6 +75,7 @@
 }
 
 .profile-cards {
+    padding-top: 40px;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;

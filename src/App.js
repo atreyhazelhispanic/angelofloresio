@@ -10,12 +10,19 @@ import Overwatch from "./components/overwatch/Overwatch";
 function App() {
   return (
     <div className="App">
-        <Navbar bg="dark" variant="dark" expand="lg" style={{backgroundColor: "black", height: '60px'}}>
+        <Navbar collapseOnSelect fixed="top" bg="dark" variant="dark" expand="lg">
             <Container style={{marginLeft: 0}}>
-                <Navbar.Brand href="/"><img src={Logo} height={'50em'} alt={"Initials Logo"}/></Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto" style={{display:"flex", flexDirection:"row"}}>
+                <Navbar.Brand href="/"><img
+                    src={Logo}
+                    width="50"
+                    height="40"
+                    className="d-inline-block align-top"
+                    alt="AF logo"
+                    />
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <Navbar.Collapse id="responsive-navbar-nav">
+                    <Nav>
                         <NavItem href="/experience">
                             <Nav.Link as={Link} to="/experience">Experience</Nav.Link>
                         </NavItem>

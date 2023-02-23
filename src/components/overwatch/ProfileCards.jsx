@@ -3,9 +3,11 @@ import './ProfileCard.css';
 import widowBackground from '../../images/profile cards/widowmaker_profiile.jpeg'
 import hanzoBackground from '../../images/profile cards/hanzo_cyberdragon_profile.jpeg'
 import creeBackground from '../../images/profile cards/mcree_blackwatch_profile.jpeg'
+import moriaBackground from '../../images/profile cards/moria_profile.jpeg'
 import alex from '../../images/profile cards/alex_profile_pic.jpeg'
 import flaqo from '../../images/profile cards/flaqo_profile_pic.JPG'
 import angelo from '../../images/profile cards/angelo_profile_pic.JPG'
+import saskia from '../../images/profile cards/saskia_profile_pic.png'
 import PropTypes from "prop-types";
 
 class ProfileCards extends React.Component {
@@ -74,7 +76,7 @@ ProfileCards.defaultProps = {
             name: 'Chilli',
             profilePic: flaqo,
             profileBackground: creeBackground,
-            peek: 'Masters',
+            peek: 'Diamond',
             main: 'Cassidy/Mcree',
             map: 'Eichenwalde',
             location: 'TJ'
@@ -87,6 +89,15 @@ ProfileCards.defaultProps = {
             main: 'Widowmaker',
             map: 'Kings Row',
             location: 'Florida'
+        },
+        {
+            name: 'Saskia',
+            profilePic: saskia,
+            profileBackground: moriaBackground,
+            peek: 'Gold',
+            main: 'Moria',
+            map: 'Dorado',
+            location: 'Seattle'
         }
     ]
 }
