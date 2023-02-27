@@ -88,7 +88,7 @@ ProfileCards.propTypes = {
     teammates: PropTypes.arrayOf(
         PropTypes.shape({
             name: PropTypes.string,
-            profilePic: PropTypes.object,
+            profilePic: PropTypes.string,
             profileBackground: PropTypes.object,
             peek: PropTypes.string,
             main: PropTypes.string,
