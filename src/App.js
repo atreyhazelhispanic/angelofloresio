@@ -4,8 +4,8 @@ import './App.css';
 import Logo from './images/af_icon.png'
 import Portfolio from './pages/portfolio/Portfolio'
 import Experience from './pages/experience/Experience'
-import Homepage from "./components/homepage/Homepage";
-import Overwatch from "./components/overwatch/Overwatch";
+import Homepage from "./pages/homepage/Homepage";
+import Overwatch from "./pages/overwatch/Overwatch";
 
 function App() {
   return (

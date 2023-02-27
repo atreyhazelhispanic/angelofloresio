@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfileCards from "../profilecards/ProfileCards";
+import ProfileCards from '../../components/profilecards/ProfileCards';
 
 class Overwatch extends React.Component {
     render() {

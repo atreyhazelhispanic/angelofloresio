@@ -75,7 +75,6 @@
 }
 
 .profile-cards {
-    padding-top: 40px;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;

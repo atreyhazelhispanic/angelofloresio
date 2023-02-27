@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import PropTypes from 'prop-types';
-import BasicSelect from "./BasicSelect";
+import BasicSelect from "../../components/basicselect/BasicSelect";
 
 class Homepage extends React.Component {
     constructor(props) {

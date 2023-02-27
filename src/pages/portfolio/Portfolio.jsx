@@ -47,7 +47,7 @@ class Portfolio extends React.Component {
 
         return (
             <div>
-                <div style={{width: '100%', margin: '0 auto'}}>
+                <div style={{width: '100%', margin: '0 auto', paddingTop: '60px'}}>
                     <Button
                         onClick={() => toggle(Lang.Java)}
                         aria-controls="fade-text"

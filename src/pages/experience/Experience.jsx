@@ -150,7 +150,7 @@ class Experience extends React.Component {
         const { selectedOption } = this.state;
 
         return (
-            <div>
+            <div className='experience'>
                 <Container fluid className="p-0">
                     <Row>
                         <Col>
@@ -178,7 +178,10 @@ class Experience extends React.Component {
                             <br/>
                             {this.state.educationComponent}
                         </Col>
-                        <Col style={{display: 'block', overflowY: 'scroll', height: '90vh'}}>
+                    </Row>
+                    <Row>
+                        <Col style={{
+                            display: 'block', overflowY: 'scroll', paddingTop: '40px'}}>
                             <div>
                                 <iframe
                                     src="https://www.linkedin.com/embed/feed/update/urn:li:share:6723311236903268352"
