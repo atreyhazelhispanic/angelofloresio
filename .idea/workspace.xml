@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ed08fae-9100-4631-b7f1-f04851f614b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Services/getOWPlayer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/modal/Modal.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profilecards/ProfileCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilecards/ProfileCard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/profilecards/ProfileCards.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/profilecards/ProfileCards.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/experience/Experience.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/experience/Experience.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/homepage/Homepage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/Homepage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/overwatch/Overwatch.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/overwatch/Overwatch.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/portfolio/Portfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/portfolio/Portfolio.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services/getOWPlayer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services/getOWPlayer.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +87,7 @@
       <workItem from="1606286825682" duration="549000" />
       <workItem from="1632852257243" duration="21768000" />
       <workItem from="1633307032859" duration="25780000" />
-      <workItem from="1676847030709" duration="65248000" />
+      <workItem from="1676847030709" duration="66010000" />
     </task>
     <servers />
   </component>
