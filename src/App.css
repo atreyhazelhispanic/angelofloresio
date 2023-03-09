@@ -154,8 +154,9 @@ a:visited {
     font-size: 30px;
   }
   .introduction-paragraph {
+    font-family: Arial;
     padding-left: 5%;
-    top: 53%;
+    top: 54%;
     font-size: 18px;
   }
   .email-icon {
@@ -204,8 +205,9 @@ a:visited {
     font-size: 30px;
   }
   .introduction-paragraph {
+    font-family: Arial;
     padding-left: 5%;
-    top: 61%;
+    top: 62%;
     font-size: 18px;
   }
   .email-icon {
