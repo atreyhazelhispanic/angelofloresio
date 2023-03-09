@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Modal from 'react-bootstrap/Modal';
 import Row from 'react-bootstrap/Row';
 
-export function ModalFunction(props) {
+export function OverwatchStatsModal(props) {
     return (
         <Modal {...props} aria-labelledby="contained-modal-title-vcenter">
             <Modal.Header closeButton>

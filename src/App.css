@@ -1,9 +1,12 @@
 .App {
-  background-image: url('images/se_background.jpg');
+  background-color: #48C7FF;
   filter: brightness(90%);
   color: white;
   min-height: 100vh;
 }
+
+/*.navbar-dark .navbar-toggler-icon {*/
+/*}*/
 
 .navItems {
   position: absolute;
@@ -11,7 +14,57 @@
   font-size: 25px;
 }
 
-.homepage{
+.homepage-title {
+  position: absolute;
+  float: right;
+  top: 80px;
+  right: 0;
+  font-family: Oxygen;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.cs-banner {
+  float: right;
+  position: relative;
+  display: inline;
+  opacity: .85;
+  paddingTop: 60px;
+}
+
+.portrait {
+  border-width: 1px;
+  border-radius: 150px;
+  padding-top: 60px;
+}
+
+.introduction-title {
+  position: absolute;
+  font-family: "Bodoni 72";
+  font-weight: bold;
+}
+
+.introduction-paragraph {
+  position: absolute;
+  color: black;
+  font-family: fantasy;
+  font-style: italic;
+  line-height: 2;
+}
+
+.email-icon {
+  position: absolute;
+}
+
+.github-icon {
+  position: absolute;
+}
+
+.linkedin-icon {
+  position: absolute;
+}
+
+.video-production {
   padding-top: 60px;
 }
 
@@ -48,7 +101,7 @@ a:visited {
 }
 
 .rewind-header {
-  color: deepskyblue;
+  color: white;
   text-shadow: 1px 1px 2px black;
   font-size: xx-large;
   font-family: Helvetica;
@@ -71,17 +124,85 @@ a:visited {
   height: 100vh
 }
 
-/*@media (prefers-reduced-motion: no-preference) {*/
-/*  .App-logo {*/
-/*    animation: App-logo-spin infinite 20s linear;*/
-/*  }*/
-/*}*/
+#rewind {
+  color: black;
+}
 
-/*@keyframes App-logo-spin {*/
-/*  from {*/
-/*    transform: rotate(0deg);*/
-/*  }*/
-/*  to {*/
-/*    transform: rotate(360deg);*/
-/*  }*/
-/*}*/
+/*Mobile*/
+@media screen and (max-width: 600px) {
+  .homepage-title {
+    font-size: 20px;
+    padding-right: 5%;
+  }
+  .cs-banner {
+    max-width: 100%;
+    width: 55%;
+    object-fit: scale-down;
+    clip-path: inset(120px 0 120px round 10px 0 0 10px);
+  }
+  .portrait {
+    width: 45%;
+    height: 480px;
+  }
+  .introduction-title {
+    left: 5%;
+    top: 58%;
+    font-size: 30px;
+  }
+  .introduction-paragraph {
+    padding-left: 5%;
+    top: 64%;
+    font-size: 18px;
+  }
+  .email-icon {
+    left: 47%;
+    top: 35%;
+    width: 45px;
+    height: 30px;
+  }
+  .github-icon {
+    left: 68%;
+    top: 34%;
+    width: 44px;
+    height: 45px;
+  }
+  .linkedin-icon {
+    right: 2%;
+    top: 34%;
+    width: 44px;
+    height: 45px;
+  }
+}
+
+/*Desktop*/
+@media screen and (min-width: 601px) {
+  .homepage-title {
+    font-size: 40px;
+    padding-right: 10%;
+  }
+  .cs-banner {
+    clip-path: inset(150px 0 20px round 10px 0 0 10px);
+  }
+  .introduction-title {
+    padding-left: 42%;
+    top: 380px;
+    font-size: 45px;
+  }
+  .introduction-paragraph {
+    padding-left: 42%;
+    top: 450px;
+    font-size: 20px;
+  }
+  .email-icon {
+    left: 42%;
+    bottom: 7%;
+  }
+  .github-icon {
+    left: 63%;
+    bottom: 6%;
+  }
+  .linkedin-icon {
+    right: 3%;
+    bottom: 6%;
+  }
+}

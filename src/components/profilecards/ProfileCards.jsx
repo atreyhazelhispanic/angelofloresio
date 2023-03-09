@@ -1,6 +1,6 @@
 import React from 'react';
 import './ProfileCard.css';
-import {ModalFunction} from '../modal/Modal';
+import {OverwatchStatsModal} from '../modal/OverwatchStatsModal';
 import {getOWPlayer} from "../../Services/getOWPlayer";
 import widowBackground from '../../images/profile cards/widowmaker_profiile.jpeg'
 import hanzoBackground from '../../images/profile cards/hanzo_cyberdragon_profile.jpeg'
@@ -73,7 +73,7 @@ class ProfileCards extends React.Component {
                         </div>
                 )}
 
-                <ModalFunction
+                <OverwatchStatsModal
                     show={this.state.modalShow}
                     onHide={() => this.setModalShow(false, [])}
                     stats={this.state.stats}
