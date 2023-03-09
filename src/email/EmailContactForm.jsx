@@ -36,27 +36,27 @@ const EmailContactForm = (props) => {
         <div>
             <form ref={form} onSubmit={sendEmail}>
                 <Row>
-                    <Col xs={6} md={4}>
+                    <Col xs={4} md={4}>
                         <label>Name</label>
                     </Col>
-                    <Col xs={6} md={4}>
+                    <Col xs={4} md={4}>
                         <input type="text" name="name" />
                     </Col>
                 </Row>
                 <Row>
-                    <Col xs={6} md={4}>
+                    <Col xs={4} md={4}>
                         <label>Email</label>
 
                     </Col>
-                    <Col xs={6} md={4}>
+                    <Col xs={4} md={4}>
                         <input type="email" name="email" />
                     </Col>
                 </Row>
                 <Row>
-                    <Col xs={6} md={4}>
+                    <Col xs={4} md={4}>
                         <label>Message</label>
                     </Col>
-                    <Col xs={6} md={4}>
+                    <Col xs={4} md={4}>
                         <textarea name="message" />
                         <input type="submit" value="Send" />
                     </Col>
