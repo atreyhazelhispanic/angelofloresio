@@ -27,7 +27,7 @@
 .cs-banner {
   float: right;
   position: relative;
-  display: inline;
+  display: flex;
   opacity: .85;
   paddingTop: 60px;
 }
@@ -129,46 +129,100 @@ a:visited {
 }
 
 /*Mobile*/
-@media screen and (max-width: 600px) {
+/* iPhone 13 Pro Max | 2778x1284 pixels at 458ppi | 428w x 926h */
+@media screen and (max-width: 429px) and (max-height: 927px) {
   .homepage-title {
-    font-size: 20px;
-    padding-right: 5%;
+    top: 15%;
+    display: flex;
+    font-size: 15px;
+    padding-right: 2%;
   }
   .cs-banner {
+    top: 0;
     max-width: 100%;
     width: 55%;
     object-fit: scale-down;
-    clip-path: inset(120px 0 120px round 10px 0 0 10px);
+    clip-path: inset(160px 0 160px round 10px 0 0 10px);
   }
   .portrait {
     width: 45%;
-    height: 480px;
+    height: 390px;
   }
   .introduction-title {
     left: 5%;
-    top: 58%;
+    top: 47%;
     font-size: 30px;
   }
   .introduction-paragraph {
     padding-left: 5%;
-    top: 64%;
+    top: 53%;
     font-size: 18px;
   }
   .email-icon {
     left: 47%;
-    top: 35%;
+    top: 30%;
     width: 45px;
     height: 30px;
   }
   .github-icon {
     left: 68%;
-    top: 34%;
+    top: 29%;
     width: 44px;
     height: 45px;
   }
   .linkedin-icon {
     right: 2%;
-    top: 34%;
+    top: 29%;
+    width: 44px;
+    height: 45px;
+  }
+}
+
+/*Mobile*/
+/* iPhone 13 mini | 2340x1080 pixels at 476ppi | 375w x 812h */
+@media screen and (max-width: 477px) and (max-height: 813px) {
+  .homepage-title {
+    top: 15%;
+    display: flex;
+    font-size: 14px;
+    padding-right: 2%;
+  }
+  .cs-banner {
+    top: 0;
+    max-width: 100%;
+    width: 55%;
+    object-fit: scale-down;
+    clip-path: inset(160px 0 160px round 10px 0 0 10px);
+  }
+  .portrait {
+    width: 45%;
+    height: 370px;
+  }
+  .introduction-title {
+    left: 5%;
+    top: 55%;
+    font-size: 30px;
+  }
+  .introduction-paragraph {
+    padding-left: 5%;
+    top: 61%;
+    font-size: 18px;
+  }
+  .email-icon {
+    left: 47%;
+    top: 37%;
+    width: 45px;
+    height: 30px;
+  }
+  .github-icon {
+    left: 68%;
+    top: 36%;
+    width: 44px;
+    height: 45px;
+  }
+  .linkedin-icon {
+    right: 2%;
+    top: 36%;
     width: 44px;
     height: 45px;
   }
