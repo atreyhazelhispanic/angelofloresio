@@ -1,8 +1,8 @@
 import React from "react";
 import {Button}  from 'react-bootstrap';
 import Expand from "react-expand-animated";
-import Java from "../../components/java/Java";
-import C from '../../components/c#/C#'
+import Java from '../../components/java/Java';
+// import C from '../../components/csharp/CSharp'
 import Jsx from '../../components/react/react'
 import Python from '../../components/python/Python'
 
@@ -66,25 +66,25 @@ class Portfolio extends React.Component {
                     </Expand>
                 </div>
                 <br />
-                <div style={{width: '100%', margin: '0 auto'}}>
-                    <Button
-                        onClick={() => toggle(Lang.C)}
-                        aria-controls="fade-text"
-                        aria-expanded={cOpen}
-                        style={{width: '50%', border: '2px black red', borderRadius: '3px', marginLeft: '25%'}}
-                    >
-                        C# - .NET
-                    </Button>
-                    <Expand
-                        open={this.state.cOpen}
-                        duration={500}
-                        styles={{width: '100%'}}
-                        transitions={transitions}
-                    >
-                        <C/>
-                    </Expand>
-                </div>
-                <br />
+                {/*<div style={{width: '100%', margin: '0 auto'}}>*/}
+                {/*    <Button*/}
+                {/*        onClick={() => toggle(Lang.C)}*/}
+                {/*        aria-controls="fade-text"*/}
+                {/*        aria-expanded={cOpen}*/}
+                {/*        style={{width: '50%', border: '2px black red', borderRadius: '3px', marginLeft: '25%'}}*/}
+                {/*    >*/}
+                {/*        C# - .NET*/}
+                {/*    </Button>*/}
+                {/*    <Expand*/}
+                {/*        open={this.state.cOpen}*/}
+                {/*        duration={500}*/}
+                {/*        styles={{width: '100%'}}*/}
+                {/*        transitions={transitions}*/}
+                {/*    >*/}
+                {/*        <C/>*/}
+                {/*    </Expand>*/}
+                {/*</div>*/}
+                {/*<br />*/}
                 <div style={{width: '100%', margin: '0 auto'}}>
                     <Button
                         onClick={() => toggle(Lang.React)}

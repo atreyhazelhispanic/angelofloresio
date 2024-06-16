@@ -129,10 +129,10 @@ a:visited {
 }
 
 /*Mobile*/
-/* iPhone 13 Pro Max | 2778x1284 pixels at 458ppi | 428w x 926h */
-@media screen and (max-width: 429px) and (max-height: 927px) {
+/* iPhone 13 Pro Max | 2778x1284 pixels at 458ppi | 429w x 926h */
+@media screen and (max-width: 429px) and (max-height: 926px) {
   .homepage-title {
-    top: 15%;
+    top: 10%;
     display: flex;
     font-size: 15px;
     padding-right: 2%;
@@ -140,50 +140,49 @@ a:visited {
   .cs-banner {
     top: 0;
     max-width: 100%;
-    width: 55%;
+    width: 50%;
     object-fit: scale-down;
     clip-path: inset(160px 0 160px round 10px 0 0 10px);
   }
   .portrait {
-    width: 45%;
+    width: 50%;
     height: 390px;
   }
   .introduction-title {
     left: 5%;
-    top: 47%;
+    top: 42%;
     font-size: 30px;
   }
   .introduction-paragraph {
     font-family: Arial;
     padding-left: 5%;
-    top: 54%;
+    top: 47%;
     font-size: 18px;
   }
   .email-icon {
-    left: 47%;
+    left: 50%;
     top: 30%;
     width: 45px;
     height: 30px;
   }
   .github-icon {
-    left: 68%;
+    left: 70%;
     top: 29%;
     width: 44px;
     height: 45px;
   }
   .linkedin-icon {
-    right: 2%;
+    right: 0;
     top: 29%;
     width: 44px;
     height: 45px;
   }
 }
 
-/*Mobile*/
 /* iPhone 13 mini | 2340x1080 pixels at 476ppi | 375w x 812h */
-@media screen and (max-width: 477px) and (max-height: 813px) {
+@media screen and (max-width: 390px) and (max-height: 844px) {
   .homepage-title {
-    top: 15%;
+    top: 10%;
     display: flex;
     font-size: 14px;
     padding-right: 2%;
@@ -191,12 +190,62 @@ a:visited {
   .cs-banner {
     top: 0;
     max-width: 100%;
-    width: 55%;
+    width: 50%;
     object-fit: scale-down;
     clip-path: inset(160px 0 160px round 10px 0 0 10px);
   }
   .portrait {
-    width: 45%;
+    width: 50%;
+    height: 370px;
+  }
+  .introduction-title {
+    left: 5%;
+    top: 49%;
+    font-size: 30px;
+  }
+  .introduction-paragraph {
+    font-family: Arial;
+    padding-left: 5%;
+    top: 55%;
+    font-size: 18px;
+  }
+  .email-icon {
+    left: 48%;
+    top: 37%;
+    width: 45px;
+    height: 30px;
+  }
+  .github-icon {
+    left: 69%;
+    top: 36%;
+    width: 44px;
+    height: 45px;
+  }
+  .linkedin-icon {
+    right: 1%;
+    top: 36%;
+    width: 44px;
+    height: 45px;
+  }
+}
+
+/* iPhone SE | 375w x 667h */
+@media screen and (max-width: 375px) and (max-height: 667px) {
+  .homepage-title {
+    top: 10%;
+    display: flex;
+    font-size: 14px;
+    padding-right: 2%;
+  }
+  .cs-banner {
+    top: 0;
+    max-width: 100%;
+    width: 50%;
+    object-fit: scale-down;
+    clip-path: inset(160px 0 160px round 10px 0 0 10px);
+  }
+  .portrait {
+    width: 50%;
     height: 370px;
   }
   .introduction-title {
@@ -211,22 +260,135 @@ a:visited {
     font-size: 18px;
   }
   .email-icon {
-    left: 47%;
+    left: 50%;
     top: 37%;
-    width: 45px;
-    height: 30px;
+    width: 40px;
+    height: 25px;
   }
   .github-icon {
-    left: 68%;
+    left: 70%;
     top: 36%;
-    width: 44px;
-    height: 45px;
+    width: 39px;
+    height: 40px;
   }
   .linkedin-icon {
-    right: 2%;
+    right: 0;
     top: 36%;
-    width: 44px;
-    height: 45px;
+    width: 39px;
+    height: 40px;
+  }
+}
+
+/* Tablet */
+/* iPad air */
+@media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait) {
+  div.homepage-title{
+    font-size: 25px;
+  }
+  .homepage{
+    position: relative;
+  }
+  .homepage-title {
+    top: 8%;
+    left: 50%;
+    width: 50%;
+  }
+  .cs-banner {
+    top: 0;
+    max-width: 100%;
+    width: 60%;
+    object-fit: scale-down;
+    clip-path: inset(160px 0 160px round 10px 0 0 10px);
+  }
+  .portrait {
+    width: 40%;
+    height: 500px;
+  }
+  .introduction-title {
+    position: static;
+    left: 0;
+    top: 70%;
+    font-size: 30px;
+  }
+  .introduction-paragraph {
+    position: static;
+    font-family: Arial;
+    padding-left: 5%;
+    top: 69%;
+    font-size: 18px;
+  }
+  .email-icon {
+    left: 70%;
+    top: 32.5%;
+    width: 40px;
+    height: 28px;
+  }
+  .github-icon {
+    right: 10%;
+    top: 32%;
+    width: 39px;
+    height: 40px;
+  }
+  .linkedin-icon {
+    right: 0;
+    top: 32%;
+    width: 39px;
+    height: 40px;
+  }
+}
+
+@media all and (device-width: 1180px) and (device-height: 820px) and (orientation:landscape) {
+  div.homepage-title{
+    font-size: 25px;
+  }
+  .homepage{
+    position: relative;
+  }
+  .homepage-title {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 50%;
+  }
+  .cs-banner {
+    position: absolute;
+    left: 40%;
+    top: 0;
+    max-width: 100%;
+    width: 60%;
+    object-fit: scale-down;
+    clip-path: inset(160px 0 160px round 10px 0 0 10px);
+  }
+  .portrait {
+    width: 40%;
+    height: 50%;
+  }
+  .introduction-title {
+    position: unset;
+    font-size: 30px;
+  }
+  .introduction-paragraph {
+    position: static;
+    font-family: Arial;
+    padding-left: 5%;
+    top: 69%;
+    font-size: 18px;
+  }
+  .email-icon {
+    top: 400px;
+    width: 40px;
+    height: 28px;
+  }
+  .github-icon {
+    top: 400px;
+    left: 70%;
+    width: 39px;
+    height: 40px;
+  }
+  .linkedin-icon {
+    top: 400px;
+    width: 39px;
+    height: 40px;
   }
 }
 

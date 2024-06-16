@@ -31,13 +31,16 @@ class Homepage extends React.Component {
 
         return (
             <div className="homepage">
-                <img src={portrait} className='portrait' alt='Homepage Portrait' width='40%' height='890' resizeMode='cover' />
-                <img src={csBanner} className='cs-banner' alt='Title background banner' width='60%' height='400' resizeMode='cover' />
+                <div className="page-images">
+                    <img src={portrait} className='portrait' alt='Homepage Portrait' width='40%' height='890' resizeMode='cover' />
+                    <img src={csBanner} className='cs-banner' alt='Title background banner' width='60%' height='400' resizeMode='cover' />
+                </div>
 
                 <div className="homepage-title">
                     <span>Software Engineer | Developer</span>
                 </div>
                 <div>
+
                     <span className="introduction-title">Hi, I'm Angelo.</span>
                     <p className="introduction-paragraph">
                         I'm a Full Stack engineer with experience in backend, front end, DevOps, ML, and cloud infrastructure.

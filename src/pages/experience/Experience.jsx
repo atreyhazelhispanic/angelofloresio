@@ -16,8 +16,10 @@ import SMU from '../../components/education/SMU';
 import UW from '../../components/education/UW';
 import OC from '../../components/education/OC';
 import GRCC from '../../components/education/GRCC';
+import Walmart from '../../components/experience/Walmart'
 
 const experienceOptions = [
+    { value: 'walmart', label: 'Walmart'},
     { value: 'nordstrom', label: 'Nordstrom' },
     { value: 'bestbuy', label: 'Best Buy' },
     { value: 'robisonremodeling', label: 'Robison Remodeling' },
@@ -83,6 +85,9 @@ class Experience extends React.Component {
 
     displayExperience = (experienceOption) => {
         switch (experienceOption.value) {
+            case 'walmart':
+                this.setState({experienceComponent: <Walmart/>});
+                break;
             case 'nordstrom':
                 this.setState({experienceComponent: <Nordstrom/>});
                 break;
